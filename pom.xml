@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules>
   	<module>spring-ioc-review</module>
+  	<module>spring-mvc-01-hello</module>
   </modules>
   
   <dependencies>
@@ -14,5 +15,19 @@
   		<artifactId>spring-context</artifactId>
   		<version>5.2.2.RELEASE</version>
   	</dependency>
+  	<!-- Servlet api  -->
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.1.0</version>
+  	</dependency>
+  	<!-- spring-webmvc -->
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-webmvc</artifactId>
+  		<version>5.2.2.RELEASE</version>
+  	</dependency>
+  	
+  	
   </dependencies>
 </project>
